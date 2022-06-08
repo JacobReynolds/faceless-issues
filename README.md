@@ -4,7 +4,7 @@ This Github Action will label and optionally close issues created by users witho
 
 ## Detection methods
 We detect users without profile pictures by sending 2 requests:
-1) Theyir actual profile image, e.g. https://github.com/teamreadme.png
+1) Their actual profile image, e.g. https://github.com/teamreadme.png
 2) Their default identicon, e.g. https://github.com/identicons/teamreadme.png
 
 and comparing the 2 images. If they match, the issue is labeled and optionally closed.
