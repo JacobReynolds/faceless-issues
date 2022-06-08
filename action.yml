@@ -1,0 +1,20 @@
+name: 'faceless-issues'
+description: 'Automatically label or close issues created by users without Github avatars'
+branding:
+  icon: camera-off
+  color: purple
+inputs:
+  label: 
+    description: 'Label to add to issue'
+    required: false
+    default: 'faceless'
+  repo-token: 
+    description: 'Github authentication token'
+    required: true
+  close: 
+    description: 'Automatically close the issue'
+    required: false
+    default: false
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
