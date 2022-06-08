@@ -1,4 +1,4 @@
-# 🙈 Faceless
+# 🙈 Faceless Issues
 
 This Github Action will label and optionally close issues created by users without profile pictures. This is meant to decrease the amount of low quality submissions in your repository. It is best accompanied by a warning to users, so those that follow the rules will not have their issues closed.
 
