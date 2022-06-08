@@ -65,6 +65,11 @@ async function userHasDefaultImage(username) {
     return profileHash === identiconHash;
 }
 
+/**
+ * Get a 16-bit hash for the provided image
+ * @param {*} url 
+ * @returns 
+ */
 async function getImageHash(url) {
     return new Promise((resolve, reject) => {
         // remote file simple
